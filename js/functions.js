@@ -32,7 +32,7 @@ document.querySelector('#calculate').addEventListener('click', () => {
         wrongAnswers++;
     }
 
-    // Päivitä vastausten lukumäärät käyttöliittymään
+    // Vastausten lukumäärät
     document.querySelector('#correctCount').innerHTML = `Correct Answers: ${correctAnswers}`;
     document.querySelector('#wrongCount').innerHTML = `Wrong Answers: ${wrongAnswers}`;
 
